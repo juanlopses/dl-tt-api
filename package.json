@@ -1,0 +1,25 @@
+{
+  "name": "tiktok-downloader-api",
+  "version": "1.0.0",
+  "description": "A simple API for downloading TikTok content using @mrnima/tiktok-downloader",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "tiktok",
+    "downloader",
+    "api",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "*",
+    "@mrnima/tiktok-downloader": "*"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  }
+}
